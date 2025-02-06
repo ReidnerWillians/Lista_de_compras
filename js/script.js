@@ -1,9 +1,5 @@
-
-function mudarNome() {
-    
-    let nome = "Reidner Willians"
-    document.getElementById("mensagemSaudacao").textContent = "Olá, " + nome    
+function adicionarProduto() {
+    let mensagem = "Produto adicionado com sucesso!"
+    document.getElementById("mensagem").textContent = mensagem;
 }
-
-
 

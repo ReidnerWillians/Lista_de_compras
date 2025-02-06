@@ -11,10 +11,12 @@
 
 <body>
     <div class="container">
-        <h1>Boas Vindas!</h1>
-        <p>Vamos personaizar sua saaudação usando JAVASCRIPT</p>
-        <div class="saudacao" id="mensagemSaudacao">Olá, Visitante</div>
-        <button onclick="mudarNome()">Personalizar Saudação</button>
+        <h1>Lista de Compras</h1>
+        <p>Adicione suas compras</p>
+        <input type="text" id="inputCompra" placeholder="Digite o nome do produto"><br>
+        <button onclick="adicionarProduto()">Adicionar Produto</button>
+        <p id="mensagem"></p>
+        <ul id="listaDeCompras"></ul>
     </div>
 </body>
 
