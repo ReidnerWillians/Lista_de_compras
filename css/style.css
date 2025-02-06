@@ -29,3 +29,18 @@ p {
     color: #60041A;
     margin-top: 10px;
 }
+
+button {
+    background-color: #60041A;
+    color: #F4F0EA;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #A34743;
+}
