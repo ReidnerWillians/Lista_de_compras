@@ -10,11 +10,21 @@ function adicionarProduto() {
     novaCompra.textContent = compra;
     listaDeCompras.appendChild(novaCompra);
 
-    //Mensagem de compra adicionada com sucesso
-    let mensagem = "Produto adicionado com sucesso!"
-    document.getElementById("mensagem").textContent = mensagem;
-    
-    //Limpa o campo de input do usuário
-    inputCompra.value = "";
+
+
+    // Se o valor do input for vazio então mostre uma mensagem de erro para o usuário
+
+    if (tarefa == "") {
+        let mensagemErro = "Digite um produto para adicioná-lo a sua lista"
+        mensagem.textContent = mensagemErro
+    } else {
+        //Mensagem de compra adicionada com sucesso
+        //let mensagemSucesso = "Produto adicionado com sucesso!"
+        //document.getElementById("mensagem").textContent = mensagemSucesso;
+    }
 }
+//Limpa o campo de input do usuário
+inputCompra.value = "";
+
+
 
