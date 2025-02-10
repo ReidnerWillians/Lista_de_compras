@@ -18,13 +18,15 @@ function adicionarProduto() {
         let mensagemErro = "Digite um produto para adicioná-lo a sua lista"
         mensagem.textContent = mensagemErro
     } else {
-        //Mensagem de compra adicionada com sucesso
-        //let mensagemSucesso = "Produto adicionado com sucesso!"
-        //document.getElementById("mensagem").textContent = mensagemSucesso;
+        let mensagemSucesso = "Produto adicionado com sucesso!"
+        mensagem.textContent = mensagemSucesso;        
     }
+    
+    //Limpa o campo de input do usuário
+    inputCompra.value = "";
 }
-//Limpa o campo de input do usuário
-inputCompra.value = "";
+
+
 
 
 
