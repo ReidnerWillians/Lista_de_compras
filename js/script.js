@@ -14,7 +14,7 @@ function adicionarProduto() {
 
     // Se o valor do input for vazio então mostre uma mensagem de erro para o usuário
 
-    if (tarefa == "") {
+    if (compra == "") {
         let mensagemErro = "Digite um produto para adicioná-lo a sua lista"
         mensagem.textContent = mensagemErro
     } else {
