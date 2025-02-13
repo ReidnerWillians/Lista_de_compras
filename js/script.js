@@ -2,7 +2,7 @@ function adicionarProduto() {
 
     //recebe o vallor do input do usuário
     let inputCompra = document.getElementById("inputCompra");
-    let compra = inputCompra.value;
+    let compra = inputCompra.value.trim();
 
     //cria novo item (li) e insere na lista de compras) (ul)
     let listaDeCompras = document.getElementById("listaDeCompras");
